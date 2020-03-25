@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:aqua;
+}
+
+#canvas_box1{
+    margin-top: 9vh;
+}
+
+#clear-button, #predict-button{
+    background-color: rgba(134, 54, 165, 0.7);
+    font-size: 18px;
+    width: 87px;
+    height: 37px;
+    margin: 3px 0px 0px 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+#clear-button:hover, #predict-button:hover{
+    width: 91px;
+    height: 41px;
+    background-color: rgba(134, 54, 165, 0.8);
+}
+
+.prediction-text{
+    font-size: 27px;
+}
